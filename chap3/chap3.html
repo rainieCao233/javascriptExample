@@ -8,11 +8,16 @@
 	
 </body>
 <script>
-var a = 0.1, b = 0.2;
-	if (a + b == 0.3){ 
-alert("You got 0.3.");
-}else{
-	alert(parseInt(" 1234blue"));
+var num = 0;
+// outermost:
+for (var i=0; i < 10; i++) {
+	for (var j=0; j < 10; j++) {
+		if ( j == 5) {
+			continue;
+		}
+		num++;
+	}
 }
+alert(num); //95
 </script>
 </html>
