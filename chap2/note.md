@@ -1,6 +1,6 @@
 ### 在HTML中使用Script
 
-### <script>元素
+### script元素
 
 - 六个属性：
  - async：立即下载脚本
@@ -28,5 +28,5 @@
 <!DOCTYPE html>
 ```
 
-#### <noscript>元素
-> 当浏览器不支持JavaScript 时使用<noscript>元素让页面平稳地退化
+#### noscript元素
+> 当浏览器不支持JavaScript 时使用noscript元素让页面平稳地退化
